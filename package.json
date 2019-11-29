@@ -1,0 +1,35 @@
+{
+  "name": "backgen",
+  "version": "1.0.0",
+  "description": "CMPaaS Backeng generator project",
+  "main": "backgen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagnerperin/backgen.git"
+  },
+  "keywords": [
+    "generator",
+    "cmpaas",
+    "backend",
+    "nodejs",
+    "cli"
+  ],
+  "author": "Wagner Perin and Gustavo Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wagnerperin/backgen/issues"
+  },
+  "homepage": "https://github.com/wagnerperin/backgen#readme",
+  "bin": {
+    "backgen": "./backgen.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.5.3",
+    "inquirer": "^7.0.0",
+    "ncp": "^2.0.0",
+    "yargs": "^15.0.2"
+  }
+}
