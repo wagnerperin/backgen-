@@ -6,6 +6,15 @@ let options = {
             describe: 'Directory name',
             demand: false
         }
+    },
+
+    create:{
+        route: {
+            alias: ['route', 'r'],
+            default: '/v1/',
+            describe: 'Path route',
+            demand: false
+        }
     }
 }
 
