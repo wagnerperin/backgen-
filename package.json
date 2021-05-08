@@ -27,7 +27,7 @@
     "backgen": "./backgen.js"
   },
   "dependencies": {
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.7",
     "inquirer": "^7.0.0",
     "ncp": "^2.0.0",
     "yargs": "^15.0.2"
